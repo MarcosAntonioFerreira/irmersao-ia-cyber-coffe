@@ -41,6 +41,11 @@ sabores = np.array([
     }
 ])
 
+generation_config={
+    "temperature": 0.5,
+    "candidate_count": 1,
+}
+
 def validar_item(item, cardapio):
   for itemCardapio in cardapio:
             if itemCardapio["nome"] == item:
